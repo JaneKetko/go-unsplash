@@ -1,4 +1,4 @@
-module github.com/hbagdi/go-unsplash
+module github.com/JaneKetko/go-unsplash
 
 go 1.12
 
