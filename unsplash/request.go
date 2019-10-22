@@ -47,7 +47,7 @@ func newRequest(m method, e string, qs interface{}, body interface{}) (*request,
 	//Create a new request
 
 	httpRequest, err := http.NewRequest(string(m), getEndpoint(base)+e, bytes.NewBuffer(buf))
-	httpRequest.Header.Set("Authorization", "Client-ID 3c45419a148f32930bd60aefe2803693a68002cc4074382e0cfda5ecaa931d3a")
+	httpRequest.Header.Set("Authorization", "Client-ID 6cd18989cacb54a092335310aa50db579327a25586c02cde60e74075b71aa460")
 
 	if err != nil {
 		return nil, err
